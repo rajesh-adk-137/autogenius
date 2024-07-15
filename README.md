@@ -88,7 +88,7 @@ git clone https://github.com/rajesh-adk-137/sellcar.git
 3. Start the development server:
 
    ```bash
-   yarn run dev
+   yarn start
    ```
 
 ### Backend Setup
