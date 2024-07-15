@@ -38,8 +38,12 @@
   - [Frontend Setup](#frontend-setup)
   - [Backend Setup](#backend-setup)
 - [Usage](#usage)
+- [Demo](#demo)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+
 
 ## Overview
 
@@ -147,7 +151,21 @@ git clone https://github.com/rajesh-adk-137/autogenius.git
 
    - MindsDB will be accessible at [http://127.0.0.1:47334](http://127.0.0.1:47334).
 
-4. **Run Setup Commands**:
+
+
+
+4. Run the FastAPI backend:
+
+   ```bash
+   uvicorn main:app --reload
+   ```
+
+
+
+
+
+5. **Run Setup Commands**:
+
 
    - Follow the instructions in `MINDSDB_MODEL_SETUP.md` to create and configure the MindsDB models and predictors.
 
@@ -157,17 +175,52 @@ git clone https://github.com/rajesh-adk-137/autogenius.git
 2. For the backend, make sure Docker containers are running and accessible.
 3. Follow the steps in `MINDSDB_MODEL_SETUP.md` to create and manage predictive models in MindsDB.
 
+
+## Demo
+
+[Click here to watch the demo video](https://github.com/rajesh-adk-137/sellcar/assets/demo)
+
+
+## Screenshots
+
+![screenshot1](https://github.com/rajesh-adk-137/sellcar/assets/screenshot1)
+![screenshot2](https://github.com/rajesh-adk-137/sellcar/assets/screenshot2)
+
+## Contributing
+
+We welcome contributions to CarMuse! If you'd like to contribute, please follow these steps:
+
+1. **Fork the repository**
+2. **Create your feature branch**:
+
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+
+3. **Commit your changes**:
+
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+
+4. **Push to the branch**:
+
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+
+5. **Open a Pull Request**
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- [MindsDB](https://www.mindsdb.com/) for machine learning integration
+- [MindsDB](https://mindsdb.com/) for machine learning
 - [React](https://reactjs.org/) for the frontend framework
 - [FastAPI](https://fastapi.tiangolo.com/) for the backend framework
 - [Docker](https://www.docker.com/) for containerization
 - [MySQL](https://www.mysql.com/) for the database
 
 ---
-

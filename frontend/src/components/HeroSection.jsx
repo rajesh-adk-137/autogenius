@@ -12,7 +12,7 @@ const HeroSection = () => {
     };
 
     return (
-        <div className="bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300 min-h-screen flex items-center">
+        <div className="bg-gradient-to-br from-blue-100 via-blue-150 to-blue-200 min-h-screen flex items-center">
             <div className="container mx-auto px-6 py-12 md:py-24">
                 <div className="flex flex-col md:flex-row items-center justify-between">
                     <motion.div 
