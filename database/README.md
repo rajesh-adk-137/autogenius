@@ -3,7 +3,7 @@
 
 # Database Folder
 
-This folder contains the necessary files to restore the `used_cars_db` MySQL database.
+This database folder contains the necessary files to restore the `used_cars_db` MySQL database.
 
 ## Files
 
@@ -77,6 +77,13 @@ To restore the `used_cars_db` database from the SQL dump file, follow these step
 
 - Ensure the MySQL server is running before attempting to restore the database.
 - If the `used_cars_db` database already exists, you might need to drop it first or import into a different database name.
+- After succesfully setting up the database you can follow the MINDSDB_MODEL_SETUP guide for creating models.
+
+
+## Acknowledgments
+ This data is sourced from kaggle and preprocessed for training the model in mindsdb.
+- [Data Original Source](https://www.kaggle.com/datasets/taeefnajib/used-car-price-prediction-dataset)
+
 
 ---
 

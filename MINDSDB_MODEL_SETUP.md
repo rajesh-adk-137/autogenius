@@ -4,7 +4,7 @@
 
 ## Database Setup
 
-1. follow the readme in the database folder in this repo for more comprehensive guide to database setup or just continue, this too shall work.
+1. follow the readme in the database folder in this repo for more comprehensive guide to database setup or just continue, this too shall work if you have mysql installed.
 
 2. **Create the MySQL Database**
 
