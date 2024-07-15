@@ -1,0 +1,4 @@
+.env
+venv
+mdb_data
+reference.txt
