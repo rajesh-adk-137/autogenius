@@ -1,6 +1,4 @@
-Here’s a reorganized version of `reference.txt` to make it more readable and structured. I’ve renamed it to `reference.md` and included sections for cloning the database, creating and managing models, and querying the results. Additionally, I’ve added comments and instructions for clarity.
-
-```markdown
+---
 # Reference
 
 ## Database Setup
@@ -137,8 +135,3 @@ Here’s a reorganized version of `reference.txt` to make it more readable and s
    ```
 
 ---
-
-Feel free to update the placeholders and instructions as needed based on your project requirements.
-```
-
-This `reference.md` file is organized into clear sections, making it easy for users to follow the instructions for database setup, MindsDB configuration, and prediction queries.
