@@ -1,9 +1,12 @@
+
 ---
-# Reference
+# Reference for replicating the models used in mindsdb
 
 ## Database Setup
 
-1. **Create the MySQL Database**
+1. follow the readme in the database folder in this repo for more comprehensive guide to database setup or just continue, this too shall work.
+
+2. **Create the MySQL Database**
 
    If you haven't done so already, create the `used_cars_db` database using the following command:
 
@@ -11,9 +14,9 @@
    mysql -u root -p -e "CREATE DATABASE used_cars_db;"
    ```
 
-2. **Import the Database Dump**
+3. **Import the Database Dump**
 
-   Navigate to the directory containing the `used_cars_db_dump.sql` file and run:
+   Navigate to the directory containing the `used_cars_db_dump.sql` file and run (download this file from database folder first):
 
    ```bash
    mysql -u root -p used_cars_db < used_cars_db_dump.sql
@@ -35,7 +38,7 @@
    USING google_gemini_api_key = 'your_gemini_api_key';
    ```
 
-   - **Note:** Replace `'your_gemini_api_key'` with your actual Google Gemini API key.
+   **Note:** Replace `'your_gemini_api_key'` with your actual Google Gemini API key.
 
 ### 2. **Create Model**
 
@@ -73,7 +76,7 @@
 
 ### 1. **Create Project and Connect to MySQL Database**
 
-   Create a new project and connect to the MySQL database:
+   Create a new project and connect to the MySQL database(follow the database setup guide above if you haven't):
 
    ```sql
    CREATE PROJECT car_price_analysis;
@@ -83,9 +86,9 @@
    PARAMETERS = {
        "host": "host.docker.internal", -- Use this if you are running Docker locally
        "port": 3306,
-       "database": "used_cars_db",
+       "database": "used_cars_db", --the repository you created earlier during database setup
        "user": "root",
-       "password": "root"  -- By default, this is set as 'root'
+       "password": "root"  -- By default, this is set as ""  (no password)
    };
 
    SELECT * FROM mysql_conn.used_cars LIMIT 10;
@@ -135,3 +138,4 @@
    ```
 
 ---
+```
