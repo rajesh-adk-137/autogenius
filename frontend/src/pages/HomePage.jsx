@@ -94,7 +94,7 @@ const HomePage = () => {
   return (
     <div className="flex flex-col min-h-[100dvh] bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300">
       <Navbar />
-      <main className="flex-1 bg-gradient-to-b from-blue-50 to-green-50 py-12 md:py-24">
+      <main className="flex-1 bg-gradient-to-br from-blue-100 via-blue-150 to-blue-200">
         <div className="container mx-auto px-6 md:px-8">
           <motion.h1 
             className="text-4xl md:text-5xl font-bold text-[#0d0f2f] mb-8 text-center"

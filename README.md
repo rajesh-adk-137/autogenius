@@ -1,30 +1,30 @@
 
 ---
 
-# Car Price Predictor
+# AutoGenius
 
 <p align="center">
-  <a href="https://github.com/rajesh-adk-137/sellcar" target="blank">
-    <img src="https://img.shields.io/github/watchers/rajesh-adk-137/sellcar?style=for-the-badge&logo=appveyor" alt="Watchers"/>
+  <a href="https://github.com/rajesh-adk-137/autogenius" target="blank">
+    <img src="https://img.shields.io/github/watchers/rajesh-adk-137/autogenius?style=for-the-badge&logo=appveyor" alt="Watchers"/>
   </a>
-  <a href="https://github.com/rajesh-adk-137/sellcar/fork" target="blank">
-    <img src="https://img.shields.io/github/forks/rajesh-adk-137/sellcar?style=for-the-badge&logo=appveyor" alt="Forks"/>
+  <a href="https://github.com/rajesh-adk-137/autogenius/fork" target="blank">
+    <img src="https://img.shields.io/github/forks/rajesh-adk-137/autogenius?style=for-the-badge&logo=appveyor" alt="Forks"/>
   </a>
-  <a href="https://github.com/rajesh-adk-137/sellcar/stargazers" target="blank">
-    <img src="https://img.shields.io/github/stars/rajesh-adk-137/sellcar?style=for-the-badge&logo=appveyor" alt="Star"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/rajesh-adk-137/sellcar/issues" target="blank">
-    <img src="https://img.shields.io/github/issues/rajesh-adk-137/sellcar?style=for-the-badge&logo=appveyor" alt="Issues"/>
-  </a>
-  <a href="https://github.com/rajesh-adk-137/sellcar/pulls" target="blank">
-    <img src="https://img.shields.io/github/issues-pr/rajesh-adk-137/sellcar?style=for-the-badge&logo=appveyor" alt="Open Pull Request"/>
+  <a href="https://github.com/rajesh-adk-137/autogenius/stargazers" target="blank">
+    <img src="https://img.shields.io/github/stars/rajesh-adk-137/autogenius?style=for-the-badge&logo=appveyor" alt="Star"/>
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/rajesh-adk-137/sellcar/blob/master/LICENSE" target="blank">
-    <img src="https://img.shields.io/github/license/rajesh-adk-137/sellcar?style=for-the-badge&logo=appveyor" alt="License" />
+  <a href="https://github.com/rajesh-adk-137/autogenius/issues" target="blank">
+    <img src="https://img.shields.io/github/issues/rajesh-adk-137/autogenius?style=for-the-badge&logo=appveyor" alt="Issues"/>
+  </a>
+  <a href="https://github.com/rajesh-adk-137/autogenius/pulls" target="blank">
+    <img src="https://img.shields.io/github/issues-pr/rajesh-adk-137/autogenius?style=for-the-badge&logo=appveyor" alt="Open Pull Request"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/rajesh-adk-137/autogenius/blob/master/LICENSE" target="blank">
+    <img src="https://img.shields.io/github/license/rajesh-adk-137/autogenius?style=for-the-badge&logo=appveyor" alt="License" />
   </a>
 </p>
 
@@ -43,12 +43,15 @@
 
 ## Overview
 
-The Car Price Predictor project utilizes MindsDB to predict car prices based on various features. The frontend is built with React, and the backend is powered by FastAPI. Docker is used to manage the MindsDB instance.
+AutoGenius is an AI-powered platform that predicts car prices and provides personalized tips to help you make informed buying or selling decisions. The frontend is built with React, and the backend is powered by FastAPI. MindsDB is used for machine learning, and Docker is used to manage the MindsDB instance.
 
 ## Key Features
 
-- **Car Price Prediction**: Predicts car prices using a trained model.
-- **MindsDB Integration**: Uses MindsDB to create and manage predictive models.
+- **Car Price Prediction**: Predicts car prices using expert prediction model trained on relevant dataset.
+- **Personalized AI Tips**: Provides personalized buying and selling tips based on comprehensive car details.
+- **User-Friendly Interface**: Intuitive and easy-to-use interface for seamless user experience.
+- **Reliable Valuation**: Delivers accurate and reliable car valuations.
+- **MindsDB Integration**: Uses MindsDB to create and manage predictive and generative models.
 - **Docker Integration**: Utilizes Docker for MindsDB environment setup.
 
 ## Technologies Used
@@ -61,14 +64,14 @@ The Car Price Predictor project utilizes MindsDB to predict car prices based on 
 
 ## Getting Started
 
-To get started with the Car Price Predictor, follow the instructions below to set up both the frontend and backend.
+To get started with AutoGenius, follow the instructions below to set up both the frontend and backend.
 
 ## Installation
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/rajesh-adk-137/sellcar.git
+git clone https://github.com/rajesh-adk-137/autogenius.git
 ```
 
 ### Frontend Setup
@@ -76,7 +79,7 @@ git clone https://github.com/rajesh-adk-137/sellcar.git
 1. Navigate to the frontend directory:
 
    ```bash
-   cd sellcar/frontend
+   cd autogenius/frontend
    ```
 
 2. Install dependencies using Yarn:
@@ -125,7 +128,7 @@ git clone https://github.com/rajesh-adk-137/sellcar.git
    - Navigate to the backend directory:
 
      ```bash
-     cd sellcar/backend
+     cd autogenius/backend
      ```
 
    - Install dependencies from `requirements.txt`:
@@ -146,7 +149,7 @@ git clone https://github.com/rajesh-adk-137/sellcar.git
 
 4. **Run Setup Commands**:
 
-   - Follow the instructions in `` to create and configure the MindsDB models and predictors. Ensure that the MySQL database is restored using the provided SQL dump file before running these commands.
+   - Follow the instructions in `MINDSDB_MODEL_SETUP.md` to create and configure the MindsDB models and predictors.
 
 ## Usage
 

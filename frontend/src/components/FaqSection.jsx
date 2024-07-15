@@ -5,24 +5,24 @@ import faq from "../assets/images/faq.png";
 
 const faqData = [
     {
-        question: "What is CarSell?",
-        answer: "CarSell is an AI-powered tool that predicts the price of used cars based on various factors such as make, model, year, mileage, and condition. Additionally, it provides AI-generated expert advice to assist in buying or selling cars."
+        question: "What is AutoGenius?",
+        answer: "AutoGenius is an AI-powered tool that predicts the price of used cars based on various factors such as make, model, year, mileage, and condition. Additionally, it provides AI-generated expert advice to assist in buying or selling cars."
     },
     {
-        question: "How accurate are CarSell's price predictions?",
-        answer: "CarSell uses machine learning algorithms and market data to provide highly accurate price predictions. However, the final sale price may vary based on factors not captured by our model."
+        question: "How accurate are AutoGenius's price predictions?",
+        answer: "AutoGenius uses machine learning algorithms and market data to provide highly accurate price predictions. However, the final sale price may vary based on factors not captured by our model."
     },
     {
         question: "What information do I need to get a price prediction?",
         answer: "You'll need to provide details such as the car's make, model, year, mileage, condition, and any additional features. The more information you provide, the more accurate our prediction will be."
     },
     {
-        question: "Can CarSell help me if I'm buying a car?",
-        answer: "Absolutely! CarSell can help you determine if a car is fairly priced based on its specifications and current market trends. Our AI can also provide expert tips tailored to your needs."
+        question: "Can AutoGenius help me if I'm buying a car?",
+        answer: "Absolutely! AutoGenius can help you determine if a car is fairly priced based on its specifications and current market trends. Our AI can also provide expert tips tailored to your needs."
     },
     {
-        question: "Is CarSell free to use?",
-        answer: "CarSell offers a free basic prediction service which is free as of now."
+        question: "Is AutoGenius free to use?",
+        answer: "AutoGenius offers a free basic prediction service which is free as of now."
     }
 ];
 
@@ -92,13 +92,8 @@ const FAQ = () => {
                     </motion.span>
                 </motion.h2>
                 <div className="flex flex-col lg:flex-row items-start justify-between">
-                    <div className="lg:w-3/5 pr-0 lg:pr-8">
-                        {faqData.map((item, index) => (
-                            <FAQItem key={index} question={item.question} answer={item.answer} />
-                        ))}
-                    </div>
                     <motion.div 
-                        className="lg:w-2/5 mt-8 lg:mt-0 flex justify-center items-start lg:-mt-16"
+                        className="lg:w-2/5 mt-8 lg:mt-0 flex justify-center items-start lg:-mt-16 order-last lg:order-first"
                         whileHover={{ scale: 1.05 }}
                         transition={{ duration: 0.3 }}
                     >
@@ -111,6 +106,11 @@ const FAQ = () => {
                             transition={{ duration: 0.5 }}
                         />
                     </motion.div>
+                    <div className="lg:w-3/5 pr-0 lg:pr-8 order-first lg:order-last">
+                        {faqData.map((item, index) => (
+                            <FAQItem key={index} question={item.question} answer={item.answer} />
+                        ))}
+                    </div>
                 </div>
             </div>
         </section>

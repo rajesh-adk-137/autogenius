@@ -16,22 +16,10 @@ const HeroSection = () => {
             <div className="container mx-auto px-6 py-12 md:py-24">
                 <div className="flex flex-col md:flex-row items-center justify-between">
                     <motion.div 
-                        className="md:w-1/2 mb-12 md:mb-0"
-                        initial={{ opacity: 0, x: -50 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.6 }}
-                    >
-                        <img 
-                            src={heroImage} 
-                            alt="Car Valuation" 
-                            className="rounded-lg w-full h-auto max-w-2xl mx-auto mb-4"
-                        />
-                    </motion.div>
-                    <motion.div 
-                        className="md:w-1/2 md:pl-12"
+                        className="md:w-1/2 md:pr-12"
                         initial={{ opacity: 0, x: 50 }}
                         animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.6, delay: 0.2 }}
+                        transition={{ duration: 0.6 }}
                     >
                         <motion.h2 
                             className="text-3xl font-semibold text-blue-600 mb-2"
@@ -39,7 +27,7 @@ const HeroSection = () => {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.4, duration: 0.5 }}
                         >
-                            CarSell: AI-Powered Car Valuation & Advice
+                            AutoGenius: AI-Powered Car Valuation & Advice
                         </motion.h2>
                         <motion.h1 
                             className="text-5xl font-bold text-gray-800 mb-6"
@@ -55,7 +43,7 @@ const HeroSection = () => {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.6, duration: 0.5 }}
                         >
-                            CarSell uses advanced AI to provide accurate price predictions for your used car. But we don't stop there - our AI also generates personalized tips to help you make the best decision, whether you're buying or selling.
+                            AutoGenius uses advanced AI to provide accurate price predictions for your used car. But we don't stop there - our AI also generates personalized tips to help you make the best decision, whether you're buying or selling.
                         </motion.p>
                         <motion.p 
                             className="mb-8 text-gray-600"
@@ -75,6 +63,18 @@ const HeroSection = () => {
                             <FaCarSide className="ml-2 mr-2" />
                             <FaRobot className="ml-2" />
                         </motion.button>
+                    </motion.div>
+                    <motion.div 
+                        className="md:w-1/2 mt-12 md:mt-0"
+                        initial={{ opacity: 0, x: -50 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.6, delay: 0.2 }}
+                    >
+                        <img 
+                            src={heroImage} 
+                            alt="Car Valuation" 
+                            className="rounded-lg w-full h-auto max-w-2xl mx-auto"
+                        />
                     </motion.div>
                 </div>
             </div>

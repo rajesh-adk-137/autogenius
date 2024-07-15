@@ -10,7 +10,7 @@ export default function AboutPage() {
             <div>
                 <Navbar />
             </div>
-            <main className="flex-1 bg-gradient-to-b from-blue-50 to-green-50">
+            <main className="flex-1 bg-gradient-to-b from-blue-100 to-green-100">
                 <section className="w-full pt-12 md:pt-24 lg:pt-32 border-y">
                     <div className="px-6 md:px-8 space-y-12 xl:space-y-16">
                         <div className="grid max-w-[1300px] mx-auto gap-6 md:gap-12 md:grid-cols-2">
@@ -21,7 +21,7 @@ export default function AboutPage() {
                                     animate={{ opacity: 1, scale: 1 }}
                                     transition={{ duration: 0.5 }}
                                 >
-                                    Car<span className="text-[#00ff9d]">Sell</span>: AI-Powered Car Price Predictor & Advisor
+                                    Auto<span className="text-green-400">Genius</span>: AI-Powered Car Price Predictor & Advisor
                                 </motion.h1>
                                 <motion.p 
                                     className="mt-4 text-lg text-gray-600"
@@ -29,7 +29,7 @@ export default function AboutPage() {
                                     animate={{ opacity: 1 }}
                                     transition={{ delay: 0.3, duration: 0.5 }}
                                 >
-                                    Discover the future of car pricing with CarSell. Our AI-driven platform predicts used car prices and provides personalized tips, helping you make informed buying or selling decisions.
+                                    Discover the future of car pricing with AutoGenius. Our AI-driven platform predicts used car prices and provides personalized tips, helping you make informed buying or selling decisions.
                                 </motion.p>
                             </div>
                             <div className="flex flex-col items-start space-y-6">

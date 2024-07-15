@@ -3,6 +3,7 @@ import { FaGithub, FaHome, FaInfoCircle, FaCarAlt } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
+
 const Navbar = () => {
     return (
         <header className="bg-blue-900 text-white">
@@ -11,7 +12,7 @@ const Navbar = () => {
                     <Link to="/" className="flex items-center">
                         <FaCarAlt className="h-8 w-8 mr-3 text-blue-400" />
                         <motion.div className='text-2xl font-bold' whileHover={{ scale: 1.05 }}>
-                            Car<span className='text-blue-400'>Sell</span>
+                            Auto<span className='text-blue-400'>Genius</span>
                         </motion.div>
                     </Link>
                     
@@ -20,7 +21,7 @@ const Navbar = () => {
                         <NavItem icon={<FaHome />} text="Home" to="/" />
                         <NavItem icon={<FaCarAlt />} text="Predict" to="/predict" />
                         <NavItem icon={<FaInfoCircle />} text="About" to="/about" />
-                        <a href="https://github.com/yourusername/CarSell" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/rajesh-adk-137/autogenius" target="_blank" rel="noopener noreferrer">
                             <motion.button whileHover={{ scale: 1.05 }} className="text-white">
                                 <FaGithub size={24} />
                             </motion.button>

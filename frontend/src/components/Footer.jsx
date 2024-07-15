@@ -10,14 +10,14 @@ const Footer = () => {
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="space-y-4">
-                        <h3 className="text-lg font-semibold">CarSell</h3>
-                        <p className="text-sm">CarSell offers AI-powered used car price predictions based on make, model, year, mileage, and condition.</p>
+                        <h3 className="text-lg font-semibold"> Auto<span className='text-yellow-400'>Genius</span></h3>
+                        <p className="text-sm">AutoGenius offers AI-powered used car price predictions based on make, model, year, mileage, and condition.</p>
                     </div>
                     <div className="space-y-4">
                         <h3 className="text-lg font-semibold">Quick Links</h3>
                         <FooterLink icon={<FaInfoCircle />} text="About" to="/about" />
                         <FooterLink icon={<FaCarAlt />} text="Predict" to="/predict" />
-                        <FooterLink icon={<FaQuestionCircle />} text="FAQ" to="/faq" />
+                        <FooterLink icon={<FaQuestionCircle />} text="FAQ" to="/" />
                     </div>
                     <div className="space-y-4">
                         <h3 className="text-lg font-semibold">Follow Us</h3>
@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="border-t border-gray-700 mt-8 pt-4 text-center">
-                    <p className="text-sm">&copy; {new Date().getFullYear()} CarSell. All rights reserved.</p>
+                    <p className="text-sm">&copy; {new Date().getFullYear()} AutoGenius. All rights reserved.</p>
                 </div>
             </div>
         </footer>
