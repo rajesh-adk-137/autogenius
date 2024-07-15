@@ -182,9 +182,16 @@ git clone https://github.com/rajesh-adk-137/autogenius.git
 
 
 ## Screenshots
-
-![screenshot1](https://github.com/rajesh-adk-137/sellcar/assets/screenshot1)
-![screenshot2](https://github.com/rajesh-adk-137/sellcar/assets/screenshot2)
+ Landing page
+![landing_page](https://github.com/user-attachments/assets/fa5d2334-1111-458c-b880-6cccf6c9ac19)
+ FAQ section
+![FAQ section](https://github.com/user-attachments/assets/16989621-05b1-47a9-a02c-ff284044b404)
+ About Page
+![about_page](https://github.com/user-attachments/assets/65162e72-607a-4e1a-8914-f2c7c4df9fd5)
+ Form 
+![form](https://github.com/user-attachments/assets/557c5382-021a-4ae8-9abf-972da3412e44)
+ Response
+![response](https://github.com/user-attachments/assets/7b7496b0-a18e-45c6-a348-9b857ae7b505)
 
 ## Contributing
 
