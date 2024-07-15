@@ -146,13 +146,13 @@ git clone https://github.com/rajesh-adk-137/sellcar.git
 
 4. **Run Setup Commands**:
 
-   - Follow the instructions in `reference.txt` to create and configure the MindsDB models and predictors. Ensure that the MySQL database is restored using the provided SQL dump file before running these commands.
+   - Follow the instructions in `` to create and configure the MindsDB models and predictors. Ensure that the MySQL database is restored using the provided SQL dump file before running these commands.
 
 ## Usage
 
 1. Access the frontend application by opening your browser and navigating to [http://localhost:5173](http://localhost:5173).
 2. For the backend, make sure Docker containers are running and accessible.
-3. Follow the steps in `reference.txt` to create and manage predictive models in MindsDB.
+3. Follow the steps in `MINDSDB_MODEL_SETUP.md` to create and manage predictive models in MindsDB.
 
 ## License
 
