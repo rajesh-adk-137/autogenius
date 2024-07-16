@@ -16,7 +16,7 @@ This database folder contains the necessary files to restore the `used_cars_db` 
    - Ensure MySQL is installed on your machine. You can download and install it from [MySQL’s official website](https://dev.mysql.com/downloads/installer/).
 
 2. **Database Dump File:**
-   - Make sure the `used_cars_db_dump.sql` file is located in a directory you can easily access.First download it from here.
+   - Make sure the `used_cars_db_dump.sql` file is located in a directory you can easily access.
 
 ## Restoring the Database
 
@@ -86,4 +86,3 @@ To restore the `used_cars_db` database from the SQL dump file, follow these step
 
 
 ---
-

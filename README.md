@@ -45,25 +45,37 @@
 - [Acknowledgments](#acknowledgments)
 
 
+
+
 ## Overview
 
-AutoGenius is an AI-powered platform that predicts  pre-owned(used) car prices and provides personalized tips to help you make informed buying or selling decisions. The frontend is built with React, and the backend is powered by FastAPI. MindsDB is used for machine learning, and Docker is used to manage the MindsDB instance.
+**AutoGenius** is an intelligent platform that leverages MindsDB to predict pre-owned car prices and provide personalized trading tips. The project integrates a React frontend with a FastAPI backend, utilizing Docker-containerized MindsDB for machine learning capabilities.
+
+**Key components include:**
+- A price prediction model trained on a preprocessed Kaggle dataset using MindsDB's Lightwood engine.
+- A chatbot powered by Google's Gemini engine for providing personalized trading advice.
+- A user-friendly web interface for inputting car details and receiving predictions and tips.
+- A FastAPI backend that interfaces with the MindsDB Docker instance to process requests and deliver responses.
+
+This project showcases the integration of modern web technologies with AI and machine learning to create a practical tool for the automotive trading market.
 
 ## Key Features
 
-- **Car Price Prediction**: Predicts car prices using expert prediction model trained on relevant dataset.
-- **Personalized AI Tips**: Provides personalized buying and selling tips based on comprehensive car details.
-- **User-Friendly Interface**: Intuitive and easy-to-use interface for seamless user experience.
-- **Reliable Valuation**: Delivers accurate and reliable car valuations.
-- **MindsDB Integration**: Uses MindsDB to create and manage predictive and generative models.
-- **Docker Integration**: Utilizes Docker for MindsDB environment setup.
+- **Car Price Prediction**: Utilizes a custom-trained MindsDB model to predict pre-owned car prices based on multiple parameters including fuel type, transmission, title status, mileage, accident history, brand, and years used.
+- **AI-Powered Trading Tips**: Implements a chatbot using Google's Gemini engine to provide personalized buying and selling advice based on comprehensive car details.
+- **User-Friendly Interface**: Offers an intuitive and visually appealing React-based frontend for seamless user interaction.
+- **Real-time AI Integration**: Leverages FastAPI to make real-time queries to the MindsDB server, ensuring up-to-date predictions and advice.
+- **Data Preprocessing Pipeline**: Includes a sophisticated data cleaning and preprocessing workflow to prepare the Kaggle dataset for model training.
+- **Docker Integration**: Utilizes Docker for easy setup and management of the MindsDB environment, ensuring consistency across different systems.
+- **Scalable Architecture**: Designed with a separation of concerns, allowing for easy scaling and maintenance of frontend, backend, and AI components independently.
+
 
 ## Technologies Used
 
 - **Frontend**: React
 - **Backend**: FastAPI
 - **Database**: MySQL
-- **Machine Learning**: MindsDB
+- **Machine Learning**:  MindsDB (with Lightwood engine for prediction and Google Gemini engine for chatbot)
 - **Containerization**: Docker
 
 ## Getting Started
@@ -178,6 +190,7 @@ git clone https://github.com/rajesh-adk-137/autogenius.git
 3. Follow the readme inside the database folder to setup the mysql database using the used_cars_db_dump.sql file.
 4. Follow the steps in `MINDSDB_MODEL_SETUP.md` to create and manage predictive models in MindsDB, ensure the database server is running at port 3306.
 5. Run the fastapi backend.
+6. To use the chatbot feature powered by Google's Gemini engine, you need to get gemini api key.
 
 
 ## Demo
