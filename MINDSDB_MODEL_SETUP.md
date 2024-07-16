@@ -34,7 +34,7 @@
 
    ```sql
    CREATE ML_ENGINE google_gemini_engine
-   FROM google_gemini
+   FROM google_gemini --install google gemini integration from settings in mindsdb docker
    USING google_gemini_api_key = 'your_gemini_api_key';
    ```
 
@@ -79,10 +79,9 @@
    Create a new project and connect to the MySQL database(follow the database setup guide above if you haven't):
 
    ```sql
-   CREATE PROJECT car_price_analysis;
 
    CREATE DATABASE mysql_conn
-   WITH ENGINE = 'mysql',
+   WITH ENGINE = 'mysql', --install google gemini integration from settings in mindsdb docker
    PARAMETERS = {
        "host": "host.docker.internal", -- Use this if you are running Docker locally
        "port": 3306,
@@ -99,7 +98,7 @@
    Train the predictor model with the following command:
 
    ```sql
-   CREATE PREDICTOR car_price_prediction
+   CREATE PREDICTOR car_price_prediction --install lightwood integration from settings in mindsdb
    FROM mysql_conn
    (SELECT fuel_type, transmission, clean_title, mileage, accident, brand, years_used, price FROM used_cars LIMIT 4009)
    PREDICT price;

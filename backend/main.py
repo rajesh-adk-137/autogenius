@@ -10,7 +10,7 @@ load_dotenv()
 
 app = FastAPI()
 
-# Set up CORS
+# Set up CORS.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
