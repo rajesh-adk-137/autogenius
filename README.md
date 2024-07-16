@@ -1,7 +1,7 @@
 
 ---
 
-# AutoGenius
+# AutoGenius: Intelligent Car Valuation and Trading Assistant
 
 <p align="center">
   <a href="https://github.com/rajesh-adk-137/autogenius" target="blank">
