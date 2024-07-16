@@ -81,7 +81,7 @@
    ```sql
 
    CREATE DATABASE mysql_conn
-   WITH ENGINE = 'mysql', --install google gemini integration from settings in mindsdb docker
+   WITH ENGINE = 'mysql', --install mysql integration from settings in mindsdb docker
    PARAMETERS = {
        "host": "host.docker.internal", -- Use this if you are running Docker locally
        "port": 3306,
