@@ -153,8 +153,13 @@ git clone https://github.com/rajesh-adk-137/autogenius.git
 
 
 
+5. **Run Setup Commands**:
 
-4. Run the FastAPI backend:
+
+   - Follow the instructions in `MINDSDB_MODEL_SETUP.md` to create and configure the MindsDB models and predictors.
+
+
+4. Run the FastAPI backend after completing model setup in mindsdb docker:
 
    ```bash
    uvicorn main:app --reload
@@ -164,10 +169,7 @@ git clone https://github.com/rajesh-adk-137/autogenius.git
 
 
 
-5. **Run Setup Commands**:
 
-
-   - Follow the instructions in `MINDSDB_MODEL_SETUP.md` to create and configure the MindsDB models and predictors.
 
 ## Usage
 
