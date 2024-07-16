@@ -37,7 +37,7 @@
 - [Installation](#installation)
   - [Frontend Setup](#frontend-setup)
   - [Backend Setup](#backend-setup)
-- [Usage](#usage)
+- [Additional Guidance](#additional-guidance)
 - [Demo](#demo)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
@@ -171,11 +171,13 @@ git clone https://github.com/rajesh-adk-137/autogenius.git
 
 
 
-## Usage
+## Additional Guidance
 
 1. Access the frontend application by opening your browser and navigating to [http://localhost:5173](http://localhost:5173).
 2. For the backend, make sure Docker containers are running and accessible.
-3. Follow the steps in `MINDSDB_MODEL_SETUP.md` to create and manage predictive models in MindsDB.
+3. Follow the readme inside the database folder to setup the mysql database using the used_cars_db_dump.sql file.
+4. Follow the steps in `MINDSDB_MODEL_SETUP.md` to create and manage predictive models in MindsDB, ensure the database server is running at port 3306.
+5. Run the fastapi backend.
 
 
 ## Demo
