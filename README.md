@@ -225,7 +225,7 @@ Mindsdb Server -Chatbot Model- Using google_gemini_engine
 
 ## Contributing
 
-Contributions are always welcome! If you'd like to contribute, please follow these steps:
+Contributions are always welcomed! If you'd like to contribute, please follow these steps:
 
 1. **Fork the repository**
 2. **Create your feature branch**:
