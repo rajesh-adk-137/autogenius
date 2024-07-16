@@ -89,7 +89,7 @@
        "database": "used_cars_db", --the repository you created earlier during database setup
        "user": "root",
        "password": "root"  -- By default, this is set as ""  (no password)
-   };
+   }; --I have using XAMPP to setup local development environment for mysql
 
    SELECT * FROM mysql_conn.used_cars LIMIT 10;
    ```

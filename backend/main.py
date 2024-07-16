@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 
 # Connect to MindsDB server
 try:
-    con = mindsdb_sdk.connect('http://127.0.0.1:47334')
+    con = mindsdb_sdk.connect('http://127.0.0.1:47334') #this is default address for mindsdb
     project = con.get_project('mindsdb')
 except Exception as e:
     logger.error(f"Failed to connect to MindsDB: {e}")

@@ -159,7 +159,7 @@ git clone https://github.com/rajesh-adk-137/autogenius.git
    - Follow the instructions in `MINDSDB_MODEL_SETUP.md` to create and configure the MindsDB models and predictors.
 
 
-4. Run the FastAPI backend after completing model setup in mindsdb docker:
+4. After completing model setup in mindsdb docker run the FastAPI backend:
 
    ```bash
    uvicorn main:app --reload
@@ -180,7 +180,7 @@ git clone https://github.com/rajesh-adk-137/autogenius.git
 
 ## Demo
 
-[Click here to watch the demo video](https://github.com/rajesh-adk-137/sellcar/assets/demo)
+[Click here to watch the demo video](https://github.com/user-attachments/assets/f7c97892-3716-4d7c-a327-151c3a3d26cf)
 
 
 ## Screenshots
@@ -194,6 +194,19 @@ git clone https://github.com/rajesh-adk-137/autogenius.git
 ![form](https://github.com/user-attachments/assets/557c5382-021a-4ae8-9abf-972da3412e44)
  Response
 ![response](https://github.com/user-attachments/assets/7b7496b0-a18e-45c6-a348-9b857ae7b505)
+
+Database
+![Database](https://github.com/user-attachments/assets/25c6d31d-d5a5-457c-abd7-db0a470203e2)
+
+
+
+Mindsdb Server -Prediction Model
+![Prediction Model](https://github.com/user-attachments/assets/449db70d-1909-4a58-9802-b28c87487182)
+
+Mindsdb Server -Chatbot Model- Using google_gemini_engine
+![Chatbot](https://github.com/user-attachments/assets/f3995892-dced-4c0f-b6b9-41c64a5c1cc6)
+
+
 
 ## Contributing
 
