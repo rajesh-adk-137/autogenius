@@ -43,7 +43,7 @@ const HeroSection = () => {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.6, duration: 0.5 }}
                         >
-                            AutoGenius uses advanced AI to provide accurate price predictions for your used car. But we don't stop there - our AI also generates personalized tips to help you make the best decision, whether you're buying or selling.
+                            AutoGenius uses advanced model to provide accurate price predictions for pre-owned cars. But we don't stop there - our AI also generates personalized tips to help you make the best decision, whether you're buying or selling.
                         </motion.p>
                         <motion.p 
                             className="mb-8 text-gray-600"
@@ -51,7 +51,7 @@ const HeroSection = () => {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.8, duration: 0.5 }}
                         >
-                            Enter your car details once, and get both a price estimate and tailored advice. It's like having a car expert and a data analyst at your fingertips!
+                            Enter the car details once, and get both a price estimate and tailored advice. It's like having a car expert and a data analyst at your fingertips!
                         </motion.p>
                         <motion.button
                             onClick={handleGetStarted}
@@ -60,8 +60,9 @@ const HeroSection = () => {
                             whileTap={{ scale: 0.95 }}
                         >
                             Get Started
-                            <FaCarSide className="ml-2 mr-2" />
                             <FaRobot className="ml-2" />
+                            <FaCarSide className="ml-2 mr-2" />
+                            
                         </motion.button>
                     </motion.div>
                     <motion.div 

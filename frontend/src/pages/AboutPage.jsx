@@ -21,7 +21,7 @@ export default function AboutPage() {
                                     animate={{ opacity: 1, scale: 1 }}
                                     transition={{ duration: 0.5 }}
                                 >
-                                    Auto<span className="text-green-400">Genius</span>: AI-Powered Car Price Predictor & Advisor
+                                    Auto<span className="text-green-400">Genius</span>: Intelligent Car Price Predictor & Advisor
                                 </motion.h1>
                                 <motion.p 
                                     className="mt-4 text-lg text-gray-600"
@@ -29,7 +29,7 @@ export default function AboutPage() {
                                     animate={{ opacity: 1 }}
                                     transition={{ delay: 0.3, duration: 0.5 }}
                                 >
-                                    Discover the future of car pricing with AutoGenius. Our AI-driven platform predicts used car prices and provides personalized tips, helping you make informed buying or selling decisions.
+                                    Discover the future of car pricing with AutoGenius. Our AI-driven platform predicts pre-owned car prices and provides personalized tips, helping you make informed buying or selling decisions.
                                 </motion.p>
                             </div>
                             <div className="flex flex-col items-start space-y-6">

@@ -47,7 +47,7 @@
 
 ## Overview
 
-AutoGenius is an AI-powered platform that predicts car prices and provides personalized tips to help you make informed buying or selling decisions. The frontend is built with React, and the backend is powered by FastAPI. MindsDB is used for machine learning, and Docker is used to manage the MindsDB instance.
+AutoGenius is an AI-powered platform that predicts  pre-owned(used) car prices and provides personalized tips to help you make informed buying or selling decisions. The frontend is built with React, and the backend is powered by FastAPI. MindsDB is used for machine learning, and Docker is used to manage the MindsDB instance.
 
 ## Key Features
 

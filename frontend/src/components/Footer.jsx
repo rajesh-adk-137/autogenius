@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="space-y-4">
                         <h3 className="text-lg font-semibold"> Auto<span className='text-yellow-400'>Genius</span></h3>
-                        <p className="text-sm">AutoGenius offers AI-powered used car price predictions based on make, model, year, mileage, and condition.</p>
+                        <p className="text-sm">AutoGenius offers pre-owned car price predictions and AI tips based on make, model, year, mileage, and condition of the car.</p>
                     </div>
                     <div className="space-y-4">
                         <h3 className="text-lg font-semibold">Quick Links</h3>
