@@ -114,7 +114,7 @@ async def get_ai_tip(request: AiTipRequest):
         query = f"""
         SELECT answer 
         FROM google_gemini_model 
-        WHERE question = 'Give some helpful advice to someone looking to sell or buy a car with the following details {car_details}. Speak like a friendly mechanic, be personable, and keep it to 5 or 6 sentences.reply without quote for response. Also be aware that user is filling these details because they are currently dealing with that particuluar car of mentioned detail. You can add emojis in the reply. Additionally,sometimes user may enter random  model for some brand and other parameters, handle those cases correctly asking them to fill it properly.';
+        WHERE question = 'Give some helpful advice to someone looking to trade a car with the following details {car_details}. Speak like a friendly mechanic, be personable, and keep it to 5 or 6 sentences.reply without quote for response. Also be aware that user is filling these details because they are currently dealing with that particuluar car of mentioned detail. You can add emojis in the reply. Additionally,sometimes user may enter random  model for some brand and other parameters, handle those cases correctly asking them to fill it properly.';
         """
 
         
